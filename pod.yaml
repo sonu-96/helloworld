@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: sypod
+spec:
+  containers:
+  - name: sypod
+    image: nginx
+    ports:
+      - containerPort: 80
