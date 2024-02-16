@@ -20,5 +20,5 @@ spec:
     spec:
         
       containers:
-      - name: jpod
-        image: jaya91/finalweb
+      - name: sonu
+        image: nginx
